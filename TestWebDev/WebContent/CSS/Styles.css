@@ -95,11 +95,26 @@ body {
 	height: 25px;
 	margin: 0px auto;
 	padding: 20px 0px 0px 0px;
+	color: white;
+	font-size: 12px;
 	-webkit-border-bottom-left-radius: 10px;
 	-webkit-border-bottom-right-radius: 10px;
 }
 
-#footer p {
+#footer p, a {
 	padding: 0;
 	margin: 0;
 }
+
+#footer a:link, a:visited {
+	text-decoration: underline;
+	color: white;
+}
+
+#footer a:hover, a:active {
+	text-decoration: none;
+	color: #f0f4d2;
+}
+
+
+
