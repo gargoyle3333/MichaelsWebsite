@@ -70,6 +70,10 @@ body {
 	color: #778805;
 }
 
+#homepage_content {
+	padding: 10px;
+}
+
 #left_content {
 	float: left;
 	width: 45%;
