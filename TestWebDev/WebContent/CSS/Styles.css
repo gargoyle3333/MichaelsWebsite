@@ -84,6 +84,10 @@ body {
 	margin: 10px;
 }
 
+#homepage_content {
+	padding: 10px;
+}
+
 #push {
 	height: 25px;
 }
