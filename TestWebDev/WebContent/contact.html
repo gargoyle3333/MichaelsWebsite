@@ -3,7 +3,64 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link type="text/css" rel="stylesheet" href="CSS/styles.css" />
-<title>Test Webpage</title>
+<style type="text/css" media="screen">
+h2 {
+	font-size: 19px;
+	color: #778805;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#form_left {
+	padding: 80px 0px 70px 0px;
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+#left_form_container {
+	width: 300px;
+	
+}
+
+#left_form_container p {
+	width: 100%;
+}
+
+#form_right {
+	padding: 0px 0px 10px 0px;
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+
+#submit_section {
+	padding: 320px 0px 40px 0px;
+}
+
+#submit_section input:hover {
+	cursor: hand;
+	cursor: pointer;
+	background-color: #F0F4D2;
+	color: #778805;
+}
+
+#submit_section input {
+	width: 170px;
+	height: 40px;
+	font-size: 15px;
+	background-color: #778805;
+	color: white;
+	text-transform: uppercase;
+	margin: -20px -85px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+
+</style>
+<title>Contact Form</title>
+
 </head>
 
 <body>
@@ -20,7 +77,6 @@
 	<div id="page_content">
 
 		<!-- Navigation Bar -->
-		<div id="empty_green_space"></div>
 		<div id="nav_bar">
 			<ul>
 				<!-- Change title bar to have buttons horizontally -->
@@ -41,14 +97,25 @@
 		
 		<!-- Actual page content -->
 		<div id="homepage_content">
-			<div id="left_content">
-				<p>This is some example text for the LEFT side. Basically, Sarah is a huge
-				   amount of trouble, and she is clearly in need of a lot of tickling.</p>
-			</div>
-			<div id="right_content">
-				<p>This is some example text for the RIGHT side. Michael is not trouble at
-				   all, so Sarah should probably stop calling him trouble :D </p>
-			</div>
+			<h2>For direct contact, please use the form below, or details listed in "about". </h2>
+			<form action="#" method="post" accept-charset="utf-8">
+				<div id="form_left">
+					<div id="left_form_container">
+						<p>Your name: 		<input type="text" name="name" value="" id="name"/></p>
+						<p>Contact Number: 	<input type="text" name="contact" value="" id="contact"/></p>
+						<p>E-mail: 			<input type="text" name="email" value="" id="email"/></p>
+					</div>
+				</div>
+				<div id="form_right">
+					<p>Available Contact Hours: <br />
+						<textarea name="available_hours" cols=40 rows=7 id="hours"></textarea></p>
+					<p>Description/Query: <br />
+						<textarea name="description" cols=40 rows=7 id="desc"></textarea></p>
+				</div>
+				<div id="submit_section" >
+			   		<input type="submit" value="Submit Form &rarr;" /> 
+			   	</div>
+			</form>
 		</div>
 
 	</div>
@@ -56,7 +123,7 @@
 	<!-- Footer for copyright etc. -->
 	<div id="push"></div>
 	<div id="footer">
-		<p>&copy Michael Hart | Built using <a href="www.eclipse.org/">Eclipse IDE</a> | Images using <a href="www.gimp.org/">GIMP</a></p>
+		<p>&copy; Michael Hart | Built using <a href="http://www.eclipse.org/" target="_blank">Eclipse IDE</a> | Images using <a href="http://www.gimp.org/" target="_blank">GIMP</a></p>
 	</div>
 
 </body>
