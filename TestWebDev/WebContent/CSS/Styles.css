@@ -12,6 +12,16 @@ body {
 	background-color: #e8e8e8;
 }
 
+h1 {
+	font-size: 30px;
+	color: #778805;
+}
+
+h2 {
+	font-size: 24px;
+	color: #778805;
+}
+
 #page_content {
 	width: 800px;
 	height: auto;
@@ -73,6 +83,19 @@ body {
 #homepage_content {
 	padding: 10px;
 }
+
+#homepage_content a:link, a:visited {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #778805;
+}
+
+#homepage_content a:hover, a:active {
+	font-weight: bold;
+	color: #778805;
+	text-decoration: underline;
+}
+
 
 #left_content { 
 	float: left;
