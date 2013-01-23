@@ -3,12 +3,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link type="text/css" rel="stylesheet" href="CSS/styles.css" />
-<title>Test Webpage</title>
+<style type="text/css" media="screen">
+	.example_code {
+		background-color: #e8e8e8;
+		float: right;
+	}
+	.example_code p {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+</style>
+<title>Websites | Michael's Web Design</title>
 </head>
 
 <body>
-
-	<!-- Begin proper formatting here -->
 
 	<!-- Title Bar -->
 	<div id="title_bar">
@@ -42,16 +51,43 @@
 		
 		<!-- Actual page content -->
 		<div id="homepage_content">
-			<!--
-			<div id="left_content">
-				<p>This is some example text for the LEFT side. Basically, Sarah is a huge
-				   amount of trouble, and she is clearly in need of a lot of tickling.</p>
-			</div>
-			<div id="right_content">
-				<p>This is some example text for the RIGHT side. Michael is not trouble at
-				   all, so Sarah should probably stop calling him trouble :D </p>
-			</div>
-			-->
+			<h1>Possible Website Options</h1>
+			
+			<div class="example_code">
+				<p>&lt;html&gt;</p>
+				<p>&lt;head&gt;</p>
+				<p>&lt;title&gt;Test Webpage&lt;/title&gt;</p>
+				<p>&lt;/head&gt;</p>
+				<p>&lt;body&gt;</p>
+				<p>&lt;h1&gt;This is a webpage&lt;/h1&gt;</p>
+				<p>&lt;/body&gt;</p>
+				<p>&lt;/html&gt;</p>
+			</div>	
+			<h2>Required: HTML</h2>
+			<p>All websites are written in HTML - Hypertext Markup Language. HTML is formatted using
+				tags as shown in the window to the right. The windows shows the code that displays the
+				title "This is a webpage". Tags are formatted using the &lt; and &gt; symbols, which
+				let your browser know that it is being passed information. You can then put text inbetween
+				two tags of the same kind, where the second begins with a / to show that it is closing the
+				information, as shown here to display the title.</p>
+			<h2>Highly Recommended: CSS</h2>
+			<p>Where HTML decides <span style="text-decoration: underline;">what</span> is on the page,
+				CSS displays <span style="text-decoration: underline;">how</span>. Cascading Style Sheets
+				are used to describe colours, sizes, layouts, and various other options for how a webpage
+				should be displayed. Modern browsers differ in what they are capable of doing on a webpage;
+				for instance, Google Chrome, Mozilla Firefox and Apple's Safari provide a larger range of
+				options for CSS than, say, Microsoft's Internet Explorer. Options could include fading elements
+				in and out, rotating them, colouring them, and adding shadows, but a huge range is available
+				and the list grows all the time.</p>
+			<!-- TODO create a code snippet here as an example -->
+			<h2>Recommended: JavaScript</h2>
+			<p>JavaScript is a programming langauge that opens ip a huge range of new options for your 
+				website. It could be that you want a window to pop up when someone hovers over a link,
+				or collecting information from a user using a form. JavaScript has its limitations, but
+				provides a powerful, customisable suite of options to add to your webpage.</p>
+			<!-- TODO create a code snippet here as an example -->
+			<!-- TODO do a PHP box -->
+			<!-- TODO Explain how it's relevant to me -->
 		</div>
 
 	</div>
@@ -59,7 +95,7 @@
 	<!-- Footer for copyright etc. -->
 	<div id="push"></div>
 	<div id="footer">
-		<p>&copy Michael Hart | Built using <a href="http://www.eclipse.org/" target="_blank">Eclipse IDE</a> | Images using <a href="http://www.gimp.org/" target="_blank">GIMP</a></p>
+		<p>&copy; Michael Hart | Built using <a href="http://www.eclipse.org/" target="_blank">Eclipse IDE</a> | Images using <a href="http://www.gimp.org/" target="_blank">GIMP</a></p>
 	</div>
 
 </body>
