@@ -47,7 +47,8 @@ h2 {
 	
 }
 
-#nav_bar a:link,a:visited {
+#nav_bar a:link, 
+#nav_bar a:visited {
 	display:block;
 	width: 160px;
 	background-color: #778805;
@@ -58,7 +59,8 @@ h2 {
 	text-decoration: none;
 }
 
-#nav_bar a:hover, a:active {
+#nav_bar a:hover, 
+#nav_bar a:active {
 	background-color: #f0f4d2;
 	color: #778805;
 }
@@ -84,18 +86,11 @@ h2 {
 	padding: 10px;
 }
 
-#homepage_content a:link, a:visited {
+#homepage_content a {
 	text-decoration: underline;
 	font-weight: bold;
 	color: #778805;
 }
-
-#homepage_content a:hover, a:active {
-	font-weight: bold;
-	color: #778805;
-	text-decoration: underline;
-}
-
 
 #left_content { 
 	float: left;
@@ -137,12 +132,14 @@ h2 {
 	margin: 0;
 }
 
-#footer a:link, a:visited {
+#footer a:link, 
+#footer a:visited {
 	text-decoration: underline;
 	color: white;
 }
 
-#footer a:hover, a:active {
+#footer a:hover, 
+#footer a:active {
 	text-decoration: none;
 	color: #f0f4d2;
 }
