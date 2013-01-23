@@ -11,35 +11,35 @@ h2 {
 	text-transform: uppercase;
 }
 
-#form_left {
+.form_left {
 	padding: 80px 0px 70px 0px;
 	width: 50%;
 	float: left;
 }
 
-#left_form_container tr {
+.left_form_container tr {
 	padding: 0px 0px 20px 0px;
 }
 
-#form_right {
+.form_right {
 	padding: 0px 0px 10px 0px;
 	width: 50%;
 	float: right;
 	text-align: center;
 }
 
-#submit_section {
+.submit_section {
 	padding: 360px 0px 40px 0px;
 }
 
-#submit_section input:hover, input:active {
+.submit_section input:hover, input:active {
 	cursor: hand;
 	cursor: pointer;
 	background-color: #F0F4D2;
 	color: #778805;
 }
 
-#submit_section input {
+.submit_section input {
 	width: 170px;
 	height: 40px;
 	font-size: 15px;
@@ -53,6 +53,7 @@ h2 {
 }
 
 </style>
+
 <title>Contact | Michael's Web Design</title>
 
 </head>
@@ -60,19 +61,19 @@ h2 {
 <body>
 
 	<!-- Title Bar -->
-	<div id="title_bar">
+	<div class="title_bar">
 		<a href="index.html"><img alt="Title Bar image failed to load"
 			src="img/titlebar.jpg" /></a>
 	</div>
 
 	<!-- Entire page container -->
-	<div id="page_content">
+	<div class="page_content">
 
 		<!-- Navigation Bar -->
-		<div id="nav_bar">
+		<div class="nav_bar">
 			<ul>
 					<li>
-						<a id="top_left" href="index.html">Home</a>
+						<a href="index.html">Home</a>
 					</li>
 					<li>
 						<a href="android.html">Android</a>
@@ -84,17 +85,17 @@ h2 {
 						<a href="programming.html">Programming</a>
 					</li>
 					<li>
-						<a id="current" id="top_right" href="contact.html">Contact</a>
+						<a id="current" href="contact.html">Contact</a>
 					</li>
 			</ul>
 		</div>
 		
 		<!-- Actual page content -->
-		<div id="homepage_content">
+		<div class="homepage_content">
 			<h2>For direct contact, please use the form below, or details listed in "about". </h2>
 			<form action="#" method="post" accept-charset="utf-8">
-				<div id="form_left">
-					<div id="left_form_container">
+				<div class="form_left">
+					<div class="left_form_container">
 						<!-- TODO reorganise using CSS -->
 						<table>
 							<tr>
@@ -109,14 +110,14 @@ h2 {
 						</table>
 					</div>
 				</div>
-				<div id="form_right">
+				<div class="form_right">
 					<p>Available Contact Hours: <br />
 						<textarea name="available_hours" cols=40 rows=7 id="hours"></textarea></p>
 					<p>Description/Query: <br />
 						<textarea name="description" cols=40 rows=7 id="desc"></textarea></p>
 				</div>
-				<div id="submit_section" >
-			   		<input type="submit" value="Submit Form &rarr;" /> 
+				<div class="submit_section" >
+			   		<input type="submit" value="Submit Form &rarr;" onClick="JavaScript:handleFormSubmit()" /> 
 			   	</div>
 			</form>
 		</div>
@@ -124,8 +125,8 @@ h2 {
 	</div>
 
 	<!-- Footer for copyright etc. -->
-	<div id="push"></div>
-	<div id="footer">
+	<div class="push"></div>
+	<div class="footer">
 		<p>&copy; Michael Hart | Built using <a href="http://www.eclipse.org/" target="_blank">Eclipse IDE</a> | Images using <a href="http://www.gimp.org/" target="_blank">GIMP</a></p>
 	</div>
 
